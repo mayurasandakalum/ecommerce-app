@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/customer_signup_back_p_h">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/customer_signup_title_mtop"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/customer_signup_title_pbottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="@string/activity_customer_signup_title"
+                android:textColor="@color/text_primary_color"
+                android:textSize="@dimen/customer_signup_title_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/customer_signup_subtitle_mtop"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:text="@string/customer_signup_subtitle"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="@dimen/customer_signup_subtitle_textSIze" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/first_name_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_first_name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/last_name_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_last_name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/address_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_address" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_email" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/mobile_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_mobile_number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/gender_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_gender" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_password" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/text_input_layout_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/customer_signup_edittext_mbottom"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/confirm_password_edittext"
+                    style="@style/text_input_edittext_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/customer_signup_confirm_password" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.checkbox.MaterialCheckBox
+                    android:id="@+id/checkbox_remember_me"
+                    style="@style/checkbox_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:text="@string/customer_signup_terms_conditions"
+                    android:textColor="@color/text_primary_color"
+                    android:textSize="@dimen/customer_signup_terms_conditions_text_size" />
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_signin"
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/customer_signup_button_height"
+                android:layout_marginTop="@dimen/customer_signup_button_mtop"
+                android:fontFamily="@font/sf_pro_display_bold"
+                android:text="@string/customer_signup_button_text_sign_up" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/customer_signup_signin_button_mtop"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_pro_display_medium"
+                    android:text="@string/customer_signup_already_have_an_account"
+                    android:textColor="@color/text_secondary_color"
+                    android:textSize="@dimen/customer_signup_need_account_text_size" />
+
+                <TextView
+                    android:id="@+id/button_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_pro_display_medium"
+                    android:text="@string/customer_signup_buttton_sign_in"
+                    android:textColor="@color/text_primary_color"
+                    android:textSize="@dimen/customer_signup_signin_button_size" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

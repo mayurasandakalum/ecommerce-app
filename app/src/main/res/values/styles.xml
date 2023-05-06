@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_input_layout_style">
+        <item name="hintTextColor">@color/main_color</item>
+        <item name="android:textColorHint">@color/text_secondary_color</item>
+        <item name="boxStrokeColor">@color/edittext_stoke_color</item>
+        <item name="boxBackgroundColor">@color/background_color</item>
+        <item name="passwordToggleTint">@color/text_secondary_color</item>
+    </style>
+
+    <style name="text_input_edittext_style">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+    </style>
+
+    <style name="checkbox_style">
+        <item name="useMaterialThemeColors">false</item>
+        <item name="buttonCompat">@drawable/checkbox</item>
+    </style>
+
+    <style name="button_style">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="chip_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="chipBackgroundColor">@color/chip_background_color</item>
+    </style>
+</resources>

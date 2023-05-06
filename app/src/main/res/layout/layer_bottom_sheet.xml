@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical"
+    android:paddingBottom="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/sort_by"
+        android:textColor="@color/text_primary_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_popular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/bottom_sheet_button_background"
+        android:gravity="center_vertical"
+        android:paddingVertical="12.5dp"
+        android:paddingLeft="30dp"
+        android:text="@string/popular"
+        android:textColor="@color/text_primary_color"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_newest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/bottom_sheet_button_background"
+        android:gravity="center_vertical"
+        android:paddingVertical="12.5dp"
+        android:paddingLeft="30dp"
+        android:text="@string/newest"
+        android:textColor="@color/text_primary_color"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_customer_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/bottom_sheet_button_background"
+        android:gravity="center_vertical"
+        android:paddingVertical="12.5dp"
+        android:paddingLeft="30dp"
+        android:text="@string/customer_review"
+        android:textColor="@color/text_primary_color"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_price_low_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/bottom_sheet_button_background"
+        android:gravity="center_vertical"
+        android:paddingVertical="12.5dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/text_primary_color"
+        android:text="@string/price_lowest_to_high"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_price_high_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="@drawable/bottom_sheet_button_background"
+        android:gravity="center_vertical"
+        android:paddingVertical="12.5dp"
+        android:paddingLeft="30dp"
+        android:text="@string/price_highest_to_low"
+        android:textColor="@color/text_primary_color"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:textAllCaps="false" />
+
+</LinearLayout>

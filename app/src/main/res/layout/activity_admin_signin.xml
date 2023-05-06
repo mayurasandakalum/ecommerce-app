@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/admin_signin_layout_phorizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/admin_signin_title_mtop"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="@string/activity_signin_title"
+                android:textColor="@color/text_primary_color"
+                android:textSize="@dimen/admin_signin_title_font_size" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/admin_signin_hand_size"
+                app:srcCompat="@drawable/hand_shake" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:text="@string/activity_signin_subtitle"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="@dimen/admin_signin_subtitle_size" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/text_input_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edittext_mtop">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_edittext"
+            style="@style/text_input_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/signin_admin_id" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/text_input_layout_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edittext_edittext_mtop"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_edittext"
+            style="@style/text_input_edittext_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edittext_password_hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/checkbox_remember_me"
+                style="@style/checkbox_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:text="@string/checkbox_remember_me_text"
+                android:textColor="@color/text_primary_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/button_remember_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/sf_pro_display_medium"
+            android:gravity="end"
+            android:text="@string/button_forgot_password_text"
+            android:textColor="@color/text_secondary_color"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_signin"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/admin_signin_button_height"
+        android:layout_marginTop="@dimen/admin_signin_button_mtop"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="@string/button_signin" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sadmin_signin_button_signup_mtop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="@string/text_signup_description"
+                android:textColor="@color/text_secondary_color"
+                android:textSize="@dimen/nothave_account_textSize" />
+
+            <TextView
+                android:id="@+id/button_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="@string/button_signup"
+                android:textColor="@color/text_primary_color"
+                android:textSize="@dimen/nothave_account_textSize_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

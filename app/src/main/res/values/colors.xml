@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_color">#111111</color>
+    <color name="transparent">#00EC1515</color>
+    <color name="main_color">#AFEB30</color>
+
+    <color name="text_primary_color">#EAE9EA</color>
+    <color name="text_secondary_color">#80EAE9EA</color>
+
+    <color name="button_default">#AFEB30</color>
+    <color name="button_pressed">#92C428</color>
+
+    <color name="chip_background_color">#1C1C1C</color>
+    <color name="chip_text_default">#EAE9EA</color>
+    <color name="chip_text_selected">#AFEB30</color>
+
+    <color name="cardview_horizontal_background">#1C1C1C</color>
+
+    <color name="bottom_nav_item_default">#80EAE9EA</color>
+    <color name="bottom_nav_item_selected">#AFEB30</color>
+
+    <color name="colorDividerView">#ECECEC</color>
+
+</resources>

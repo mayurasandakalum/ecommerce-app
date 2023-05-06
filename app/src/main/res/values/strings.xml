@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Ecommerce App</string>
+
+    <!-- Splash Activity 1 -->
+    <string name="splash_1_activity_text">Computer Accessories</string>
+
+    <!-- Login Activity -->
+    <string name="activity_signin_title">Hey, welcome back!</string>
+    <string name="activity_signin_subtitle">Hello again, you’ve been missed</string>
+
+    <string name="edittext_email_hint">Email</string>
+    <string name="edittext_password_hint">Password</string>
+
+    <string name="divider_text">OR</string>
+
+    <string name="text_signup_description">Don\'t have an account?</string>
+
+    <string name="checkbox_remember_me_text">Remember me</string>
+
+    <string name="button_forgot_password_text">Forgot Password?</string>
+    <string name="button_signup">Sign up</string>
+    <string name="button_signin">Sign in</string>
+
+    <!-- Customer Register Activity -->
+    <string name="activity_customer_signup_title">Create an account</string>
+    <string name="customer_signup_subtitle">Experience our best services today!</string>
+
+    <string name="customer_signup_first_name">First Name</string>
+    <string name="customer_signup_last_name">Last Name</string>
+    <string name="customer_signup_address">Address</string>
+    <string name="customer_signup_email">Email</string>
+    <string name="customer_signup_mobile_number">Mobile number</string>
+    <string name="customer_signup_gender">Gender</string>
+    <string name="customer_signup_password">Password</string>
+    <string name="customer_signup_confirm_password">Confirm Password</string>
+    <string name="customer_signup_terms_conditions">I agree to the terms and conditions</string>
+    <string name="customer_signup_button_text_sign_up">Sign up</string>
+    <string name="customer_signup_already_have_an_account">Already have an account?</string>
+    <string name="customer_signup_buttton_sign_in">Sign in</string>
+
+    <!-- Home Avtivity -->
+    <string name="home_welcome_text">Hi, Good morning</string>
+    <string name="home_customer_name">Mayura</string>
+    <string name="home_featured">Featured</string>
+    <string name="home_offers">Offers</string>
+    <string name="home_new_arrivals">New Arrivals</string>
+    <string name="home_new_product_1">Embroidery Kit Design, Beginner Kit</string>
+    <string name="home_new_product_1_price">599 LKR</string>
+    <string name="home_new_product_2">Birth Flower Jewelry Travel Case</string>
+    <string name="home_new_product_2_price">1, 199 LKR</string>
+    <string name="home_new_product_3">Custom Map Gift Engraved on Wood</string>
+    <string name="home_new_product_3_price">5, 155 LKR</string>
+    <string name="home_electroincs">Electroincs</string>
+    <string name="home_electonics_1">Solar Tracker System</string>
+    <string name="home_electonics_1_price">12, 800 LKR</string>
+    <string name="home_electonics_2">Music tesla coil plasma speaker</string>
+    <string name="home_electonics_2_price">28, 900 LKR</string>
+    <string name="home_electonics_3">Vintage Sears Computron VTL Electronic Learning Aid</string>
+    <string name="home_electonics_3_price">55, 000 LKR</string>
+
+    <!-- Search Initial Activity+ -->
+    <string name="search_search_bar_hint">Search</string>
+    <string name="search_after_text">Coconut shell</string>
+    <string name="search_product_1">Coconut Shell Spoon</string>
+    <string name="search_product_2">Coconut soap tray</string>
+    <string name="search_product_3">Coconut shell jug</string>
+    <string name="search_product_4">Coconut shell tortoise</string>
+    <string name="search_product_5">Coconut shell evil\npendant</string>
+    <string name="search_product_6">Coconut shell flower vase</string>
+    <string name="search_product_7">Coconut shell earrings</string>
+    <string name="search_product_8">Coconut shell hand bag</string>
+    <string name="seller_signup_title">Create an account</string>
+    <string name="seller_signup_subtitle">Experience our best services today!</string>
+    <string name="seller_signup_first_name">First Name</string>
+    <string name="seller_signup_last_name">Last Name</string>
+    <string name="seller_signup_address">Address</string>
+    <string name="seller_signup_mobile_number">Mobile number</string>
+    <string name="seller_signup_gender">Gender</string>
+    <string name="seller_signup_card_number">Card number</string>
+    <string name="cvv">CVV</string>
+    <string name="seller_signup_expiry_date">Expiry Date</string>
+    <string name="seller_signup_tell_us_about_bussiness">Tell us about bussiness...</string>
+    <string name="signup_categories">Categories</string>
+    <string name="signup_terms_and_conditions">I agree to the terms and conditions</string>
+    <string name="popular">Popular</string>
+    <string name="newest">Newest</string>
+    <string name="customer_review">Customer review</string>
+    <string name="price_highest_to_low">Price: highest to low</string>
+    <string name="price_lowest_to_high">Price: lowest to high</string>
+    <string name="sort_by">Sort by</string>
+
+
+    <string name="admin_id">Admin ID</string>
+    <string name="signin_admin_id">Admin ID</string>
+    <string name="create_an_admin_account">Create an admin account</string>
+    <string name="admin_signup_first_name">First Name</string>
+    <string name="admin_signup_last_name">Last Name</string>
+    <string name="admin_signup_address">Address</string>
+    <string name="admin_signup_email">Email</string>
+    <string name="admin_signup_mobile_number">Mobile number</string>
+    <string name="admin_signup_gender">Gender</string>
+    <string name="admin_signup_password">Password</string>
+    <string name="admin_signup_confirm_password">Confirm Password</string>
+    <string name="admin_signup_terms_conditions">I agree to the terms and conditions</string>
+    <string name="admin_signup_button_text_sign_up">Sign up</string>
+    <string name="admin_signup_already_have_an_account">Already have an account?</string>
+    <string name="admin_signup_buttton_sign_in">Sign in</string>
+
+</resources>
